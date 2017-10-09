@@ -1,28 +1,17 @@
-== README
+The app is a pintrest clone , which allows users to view, create and delete a pin. A pin consists of an image, the title of the image and a description of the image. Signed up users have access to create , update and delete  pins that they own while other users can only view pins
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+.Ruby Version 2.4.0
 
-Things you may want to cover:
+- Rails 5
 
-* Ruby version
+- run bundle install to install dependencies
 
-* System dependencies
+- run rake db:migrate to execute the database schema
 
-* Configuration
+- The production enviroment uses the postgreSQL database while the developmetn enviroment uses Sqlite3
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Link to the live application hosted on Heroku:-
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ https://sleepy-scrubland-30542.herokuapp.com/
+
